@@ -1,0 +1,112 @@
+div.container {
+  display: flex;
+  justify-content: center;
+  height: 100%; 
+  align-items: center;
+  margin-top: 40px;  
+
+}
+
+p{
+   font-size: 10px;
+   text-align: center;
+   margin: 0px 50px;
+   color:gray;
+   font-weight:550;
+
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border-radius: 10px;
+	
+}
+
+.card-body {
+  padding: 1rem 1rem;
+	box-shadow: 10px red;
+  border-radius: 10px;
+}
+
+body{
+   background-image: url('./images/pattern-background-desktop.svg');
+}
+
+
+.annualPlanContainer
+{
+  display: flex;
+  margin: 0 50px;
+  
+  
+}
+
+.btn-primary
+{
+  background-color: blue;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 50px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 1px 0px blue;
+}
+
+.cancelOrder
+{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10px;
+  color:gray;
+  font-weight: bold;
+}
+
+.annualPlanContainer>img
+{
+  height: 30px;
+}
+
+.annualPlanContainer ul
+{
+   list-style: none;
+   font-size: 10px;
+}
+
+
+
+ul li
+{
+  font-weight: bold;
+}
+
+ul li:nth-child(2)
+{
+  font-weight: normal;
+  color:gray;
+  font-weight: bold;
+}
+
+
+
+.annualPlanContainer  p
+{
+  color: blue;
+  font-size: 10px;
+  font-weight:700;
+  text-decoration: underline;
+}
+
+
+
+
+.orderHeader{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
